@@ -1,0 +1,10 @@
+I have learned
+variables
+lists
+tuples
+dictionary
+conditional statements
+loops
+functions
+classes
+in python
