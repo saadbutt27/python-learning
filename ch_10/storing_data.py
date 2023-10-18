@@ -45,7 +45,7 @@ def greet_user():
     path = Path('ch_10/text_files/profile.json')
     profile = get_stored_user(path)
     if profile: 
-        print(f"Welcome back, {profile['username'].title(--upgrade)}! Here are your details")
+        print(f"Welcome back, {profile['username'].title()}! Here are your details")
         for key, value in profile.items():
             print(f"{key.title()}: {value.title()}")
     else:
